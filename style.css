@@ -108,6 +108,14 @@ section p {
   margin-bottom: 1em;
 }
 
+/* THIS CONTROLS GPS PIC */
+section p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1em;
+}
+
 h2 {
   color: #004080;
   margin-top: 2em;

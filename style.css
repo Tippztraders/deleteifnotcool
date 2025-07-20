@@ -152,6 +152,25 @@ section p {
   color: #666;
 }
 
+/* THIS CONTROLS THE BACKGROUND IMAGE OF THE PRICE SECTION */
+.price-section {
+  background-image: url('js/src=image/preco-bg.jpg'); /* or .png */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2em 1em;
+  text-align: center;
+  color: white; /* or another readable color depending on your image */
+  border-radius: 12px;
+}
+.price-section h2,
+.price-section p {
+  background-color: rgba(0, 0, 0, 0.5); /* optional: semi-transparent overlay */
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border-radius: 6px;
+}
+
 /* INFORMATION BONUS */
 .bonus-info {
   text-align: center;

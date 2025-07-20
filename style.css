@@ -83,6 +83,14 @@ body {
   margin-bottom: 1em;
 }
 
+/* THIS IS FOR THE VECTORS AT DESCRICAO DO EDIFICIO */
+.inline-icon {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
 h2 {
   color: #004080;
   margin-top: 2em;

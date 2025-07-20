@@ -4,7 +4,7 @@ const gallery = document.getElementById('gallery');
 galleryImages.forEach(src => {
   const slide = document.createElement('div');
   slide.className = 'swiper-slide';
-  slide.innerHTML = `<img src="js/src=image/${src}" alt="">`;
+  slide.innerHTML = `<img src="${src}" alt="">`;
   gallery.appendChild(slide);
 });
 
@@ -14,7 +14,7 @@ const videoContainer = document.getElementById('videos');
 videoList.forEach(src => {
   const slide = document.createElement('div');
   slide.className = 'swiper-slide';
-  slide.innerHTML = `<video src="js/src=image/${src}" controls></video>`;
+  slide.innerHTML = `<video src="${src}" controls></video>`;
   videoContainer.appendChild(slide);
 });
 

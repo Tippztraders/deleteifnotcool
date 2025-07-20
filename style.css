@@ -40,7 +40,7 @@ body {
   color: white;
   z-index: 10;
   padding: 1em;
-  background: rgba(0, 0, 0, 0.4);
+      /* background: rgba(0, 0, 0, 0.4); */
   border-radius: 12px;
   max-width: 90%;
 }

@@ -114,9 +114,10 @@ section p {
   line-height: 1.6;
   color: #333;
   margin-bottom: 1em;
-  display: block;
-  max-width: 1000px;     /* was: max-width: 960px; */
-   margin: 2em auto;
+  display: block;      /* removes any inline spacing */
+  max-width: 70%;     /* was: max-width: 960px; 70% of the container  */
+  margin: 1em auto;       /* centers it horizontally */
+  height: auto;        /* maintains aspect ratio */
 }
 
 /* Resumo */

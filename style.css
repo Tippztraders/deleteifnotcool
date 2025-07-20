@@ -159,8 +159,7 @@ section p {
   background-position: center;
   background-repeat: no-repeat;
   padding: 2em 1em;
-  text-align: center;
-  color: none; /* or another readable color depending on your image */
+  text-align: center;  
   border-radius: 12px;
 }
 .price-section h2,

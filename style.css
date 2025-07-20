@@ -154,7 +154,7 @@ section p {
 
 /* THIS CONTROLS THE BACKGROUND IMAGE OF THE PRICE SECTION */
 .price-section {
-  background-image: url('js/src=image/preco-bg.jpg'); /* or .png */
+  background-image: url('pricebackgrd.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

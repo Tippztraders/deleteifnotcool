@@ -115,7 +115,7 @@ section p {
   color: #333;
   margin-bottom: 1em;
   display: block;
-  max-width: 960px;
+  max-width: 660px;     /* was: max-width: 960px; */
    margin: 2em auto;
 }
 

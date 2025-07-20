@@ -51,6 +51,7 @@ body {
   margin-bottom: 0.5em;
 }
 
+/* THIS CONTROLS THE LOOKS OF THE PICS AFTER HERO IF ANY */
 .after-hero-image {
   width: 100%;
   max-width: 960px;

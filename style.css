@@ -120,16 +120,15 @@ section p {
 }
 
 /* Resumo */
-.summary-list {
-  list-style: none;
-  padding-left: 0;
-  font-size: 1.1em;
-  line-height: 1.6;
+.highlight-points {
+  text-align: left;
+  padding: 1em;
+  line-height: 1.8; /* Adds nice spacing between lines */
+  font-size: 1em;
   color: #333;
 }
-/* Still part of RESUMO */
-.summary-list li {
-  margin-bottom: 0.5em;
+.highlight-points p {
+  margin: 0.5em 0; /* Adds space between paragraphs */
 }
 
 h2 {

@@ -109,11 +109,14 @@ section p {
 }
 
 /* THIS CONTROLS GPS PIC */
-section after-location-image {
+ .after-location-image {
   font-size: 1em;
   line-height: 1.6;
   color: #333;
   margin-bottom: 1em;
+  display: block;
+  max-width: 960px;
+   margin: 2em auto;
 }
 
 h2 {

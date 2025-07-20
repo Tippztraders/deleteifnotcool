@@ -154,7 +154,7 @@ section p {
 
 /* INFORMATION BONUS */
 .bonus-info {
-  text-align: left;
+  text-align: center;
   padding: 2em 1em;
   max-width: 720px;
   margin: 0 auto;

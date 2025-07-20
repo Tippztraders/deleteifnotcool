@@ -115,13 +115,13 @@ section p {
   color: #333;
   margin-bottom: 1em;
   display: block;
-  max-width: 660px;     /* was: max-width: 960px; */
+  max-width: 550px;     /* was: max-width: 960px; */
    margin: 2em auto;
 }
 
 /* Resumo */
 .highlight-points {
-  text-align: left;
+  text-align: center;   /* text-align: left; */
   padding: 1em;
   line-height: 1.8; /* Adds nice spacing between lines */
   font-size: 1em;

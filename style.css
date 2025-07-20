@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f6faff;
+  color: #222;
+}
+
+.site-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.hero {
+  background: #004080;
+  color: white;
+  padding: 2em 1em;
+}
+
+.company {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.tagline {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+h2 {
+  color: #004080;
+  margin-top: 2em;
+}
+
+section {
+  padding: 1.5em 1em;
+}
+
+.summary-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #e6f0ff;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+footer {
+  background: #333;
+  color: #eee;
+  padding: 2em 1em;
+  font-size: 0.9em;
+}
+
+footer .legal {
+  font-size: 0.8em;
+  color: #aaa;
+  margin-top: 1em;
+}
+
+.swiper-slide img, .swiper-slide video {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}

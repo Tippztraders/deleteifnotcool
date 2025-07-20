@@ -13,9 +13,55 @@ body {
 }
 
 .hero {
+  position: relative;
+  overflow: hidden;
   background: #004080;
   color: white;
   padding: 2em 1em;
+}
+
+.hero-swiper {
+  position: relative;
+}
+
+.hero-swiper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 10;
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  max-width: 90%;
+}
+
+.hero-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 0.5em;
+}
+
+.company-name {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.2em 0;
+}
+
+.tagline {
+  font-size: 1.1em;
+  font-style: italic;
+  margin: 0;
+  line-height: 1.5em;
 }
 
 .company {

@@ -51,6 +51,14 @@ body {
   margin-bottom: 0.5em;
 }
 
+.after-hero-image {
+  width: 100%;
+  max-width: 960px;
+  display: block;
+  margin: 2em auto;
+  border-radius: 12px;
+}
+
 .company-name {
   font-size: 2em;
   font-weight: bold;

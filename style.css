@@ -85,7 +85,7 @@ body {
 
 /* THIS IS FOR THE VECTORS AT DESCRICAO DO EDIFICIO */
 .inline-icon {
-  width: 30px;  /* 20px was also good */
+  width: 60px;  /* 20px was also good, 30 didn't change different from 20 */
   height: auto;
   vertical-align: middle;
   margin-right: 8px;

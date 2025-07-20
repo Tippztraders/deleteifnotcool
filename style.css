@@ -151,6 +151,17 @@ section p {
   color: #666;
 }
 
+/* INFORMATION BONUS */
+.bonus-info {
+  text-align: left;
+  padding: 2em 1em;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1em;
+  color: #333;
+  line-height: 1.7;
+}
+
 h2 {
   color: #004080;
   margin-top: 2em;

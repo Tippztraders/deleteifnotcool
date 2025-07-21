@@ -90,6 +90,7 @@ body {
   max-width: 100%;
   height: auto;
   margin: 1em auto;
+  position: center;
 }
 
 /* THIS CONTROLS THE PICS AFTER DESCRICAO DO EDIFICIO */

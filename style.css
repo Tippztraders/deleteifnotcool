@@ -13,88 +13,75 @@ body {
   text-align: center;
 }
 
-.hero {  
-  background: #fff8dc;    /* try #f9f9f9 or match body background */
+/* Hero Header */
+.hero {
+  background: #fff8dc; /* soft yellow */
   text-align: center;
+  padding: 2em 1em;
   color: #333;
-  padding: 2em 1em;          /*  Remove padding so image goes edge to edge padding: 0; */
-   /* position: relative; */
-   /* overflow: hidden; */
-   /* margin: 0; */
-   /* height: 40vh; */      /* Was 300px, use vh: height: 40vh for responsive height */
-}
-
-.hero-content {
-  max-width: 720px;
-  margin: 0 auto;
-}
-
-.subtext {
-  font-size: 0.95em;
-  color: #555;
-}
-
-.hero-swiper {
-  position: 100%;    /* Was relative, 100% Ensures image fills the hero container */
-}
-
-.hero-swiper img {
-  width: 100%;
-  height: 100%;  /* Was auto */
-  display: block;
-  object-fit: cover;  /* ✅ Ensures full coverage */
-}
-
-.hero-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  z-index: 10;
-  padding: 1em;
-      /* background: rgba(0, 0, 0, 0.4); */
-  border-radius: 12px;
-  max-width: 90%;
 }
 
 .hero-logo {
-  width: 200px;    /* adjust as needed */
-  height: auto;     /* keeps aspect ratio */
+  width: 60px;
+  height: auto;
   margin-bottom: 1em;
 }
 
-/* THIS CONTROLS THE LOOKS OF THE PICS AFTER HERO IF ANY */
-.after-hero-image {
-  width: 100%;
-  max-width: 960px;
-  display: block;
-  margin: 2em auto;
-  border-radius: 12px;
-}
-
-.company-name {
-  font-size: 2em;
+.headline {
+  font-size: 1.8em;
   font-weight: bold;
   margin: 0.2em 0;
 }
 
-.tagline {
-  font-size: 1.1em;
-  font-style: italic;
+.address-line {
+  font-size: 1em;
   margin: 0;
-  line-height: 1.5em;
 }
 
-.company {
-  font-size: 2em;
-  font-weight: bold;
+.city {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 0.5em;
 }
 
 .tagline {
+  font-size: 1em;
   font-style: italic;
-  margin-bottom: 1em;
+  color: #444;
+  margin-top: 0.5em;
+}
+
+/* Section Nav Menu */
+.section-nav {
+  background-color: #004080; /* same as your theme blue */
+  padding: 1em;
+  overflow-x: auto;
+}
+
+.section-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.section-nav a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #fff;
+  color: #004080;
+  text-decoration: none;
+  font-size: 0.9em;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: background 0.3s;
+}
+
+.section-nav a:hover {
+  background-color: #e0e0e0;
 }
 
 /* THIS CONTROLS THE PICS AFTER DESCRICAO DO EDIFICIO */

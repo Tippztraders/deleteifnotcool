@@ -13,7 +13,7 @@ body {
   text-align: center;
 }
 
-/* Hero Header */
+
 .hero {
   background: #fff8dc; /* soft yellow */
   text-align: center;
@@ -22,7 +22,7 @@ body {
 }
 
 .hero-logo {
-  width: 90px;  /* ws 60px; now 90
+  width: 90px;  /* ws 60px; now 90 */
   height: auto;
   margin-bottom: 1em;
 }
@@ -39,11 +39,12 @@ body {
 }
 
 .city {
-  font-size: 0.9em;
+  font-size: 1.5em;   /* was 0.9 now 1.5 */
   color: #666;
   margin-bottom: 0.5em;
 }
 
+/* OPORTUNIDADE... */
 .tagline {
   font-size: 1em;
   font-style: italic;

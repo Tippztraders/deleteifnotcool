@@ -217,37 +217,6 @@ section p {
   color: #004799;
 }
 
-h2 {
-  color: #004080;
-  margin-top: 2em;
-}
-
-section {
-  padding: 1.5em 1em;
-}
-
-.summary-grid {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background: #e6f0ff;
-  padding: 1em;
-  border-radius: 8px;
-}
-
-footer {
-  background: #333;
-  color: #eee;
-  padding: 2em 1em;
-  font-size: 0.9em;
-}
-
-footer .legal {
-  font-size: 0.8em;
-  color: #aaa;
-  margin-top: 1em;
-}
-
 /* THIS CODE CONTROLS THE BACKGROUND IMAGE FOR THE FOOTER */
 footer {
   background-image: url('footerbg.jpg');

@@ -13,15 +13,25 @@ body {
   text-align: center;
 }
 
-.hero {
-  position: relative;
-  overflow: hidden;
-  background: #f9f9f9;    /* try #f9f9f9 or match body background */
-  color: white;
-  padding: 0;          /*  Remove padding so image goes edge to edge */
-  margin: 0;
-  height: 40vh;       /* Was 300px, use vh: height: 40vh for responsive height */
+.hero {  
+  background: #fff8dc;    /* try #f9f9f9 or match body background */
+  text-align: center;
+  color: #333;
+  padding: 2em 1em;          /*  Remove padding so image goes edge to edge padding: 0; */
+   /* position: relative; */
+   /* overflow: hidden; */
+   /* margin: 0; */
+   /* height: 40vh; */      /* Was 300px, use vh: height: 40vh for responsive height */
 }
+
+.hero-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+
+
+
 
 .hero-swiper {
   position: 100%;    /* Was relative, 100% Ensures image fills the hero container */
@@ -49,9 +59,9 @@ body {
 }
 
 .hero-logo {
-  width: 40px;    /* adjust as needed */
+  width: 60px;    /* adjust as needed */
   height: auto;     /* keeps aspect ratio */
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 /* THIS CONTROLS THE LOOKS OF THE PICS AFTER HERO IF ANY */
@@ -84,14 +94,6 @@ body {
 .tagline {
   font-style: italic;
   margin-bottom: 1em;
-}
-
-/* THIS IS FOR THE VECTORS AT DESCRICAO DO EDIFICIO */
-.inline-icon {
-  width: 60px;  /* 20px was also good, 30 didn't change different from 20, 60px looks good */
-  height: auto;
-  vertical-align: middle;
-  margin-right: 8px;
 }
 
 /* THIS CONTROLS THE PICS AFTER DESCRICAO DO EDIFICIO */

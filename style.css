@@ -112,8 +112,8 @@ section p {
  .after-location-image {
   display: block;
   margin: 1em auto;
-  max-width: 300px;  /* try with a fixed size */
-  width: 100%;       /* scales responsively */
+  max-width: 100px;  /* try with a fixed size */
+  width: auto;       /* scales responsively */
   height: auto;
 }
 

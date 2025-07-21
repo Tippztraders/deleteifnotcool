@@ -84,6 +84,14 @@ body {
   background-color: #e0e0e0;
 }
 
+/* Handbuild background */
+.after-hero-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1em auto;
+}
+
 /* THIS CONTROLS THE PICS AFTER DESCRICAO DO EDIFICIO */
 .after-description-image {
   width: 100%;

@@ -93,6 +93,13 @@ body {
   position: center;
 }
 
+.section-divider {
+  border-top: 1px solid #ccc; /* 👈 light separator line */
+  margin: 2em auto 1em;
+  width: 90%;
+  max-width: 720px;
+}
+
 /* THIS CONTROLS THE PICS AFTER DESCRICAO DO EDIFICIO */
 .after-description-image {
   width: 100%;

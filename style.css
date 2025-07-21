@@ -113,7 +113,7 @@ body {
 
 /* THIS CONTROLS THE VECTORS */
 .inline-icon {
-  width: 60px;  /* 20px was also good, 30 didn't change different from 20, 60px looks good */
+  width: 30px;  /* 20px was also good, 30 didn't change different from 20, 60px looks good */
   height: auto;
   vertical-align: middle;
   margin-right: 8px;

@@ -248,6 +248,16 @@ footer .legal {
   margin-top: 1em;
 }
 
+/* THIS CODE CONTROLS THE BACKGROUND IMAGE FOR THE FOOTER */
+footer {
+  background-image: url('footerbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* Optional: helps text contrast against the image */
+  padding: 2em 1em; /* Add space inside footer */
+}
+
 .swiper-slide img, .swiper-slide video {
   width: 100%;
   height: auto;

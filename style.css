@@ -29,9 +29,10 @@ body {
   margin: 0 auto;
 }
 
-
-
-
+.subtext {
+  font-size: 0.95em;
+  color: #555;
+}
 
 .hero-swiper {
   position: 100%;    /* Was relative, 100% Ensures image fills the hero container */

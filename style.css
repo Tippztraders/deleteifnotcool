@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
   background: #f6faff;
   color: #222;
+  padding: 0;
 }
 
 .site-container {
@@ -15,11 +16,11 @@ body {
 .hero {
   position: relative;
   overflow: hidden;
-  background: #004080;
+  background: #f9f9f9;    /* try #f9f9f9 or match body background */
   color: white;
-  padding: 0;          /* ✅ Remove padding */
+  padding: 0;          /*  Remove padding so image goes edge to edge */
   margin: 0;
-  height: 300px;       /* ✅ or use vh: height: 40vh; */
+  height: 40vh;       /* Was 300px, use vh: height: 40vh for responsive height */
 }
 
 .hero-swiper {

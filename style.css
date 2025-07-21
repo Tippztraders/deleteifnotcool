@@ -60,7 +60,7 @@ body {
 }
 
 .hero-logo {
-  width: 60px;    /* adjust as needed */
+  width: 200px;    /* adjust as needed */
   height: auto;     /* keeps aspect ratio */
   margin-bottom: 1em;
 }

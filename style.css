@@ -180,11 +180,11 @@ section p {
 }
 
 /* THIS CONTROLS GPS PIC */
- .after-location-image {
+.after-location-image {
   display: block;
-  margin: 1em auto;
-  max-width: 400px;  /*   max-width: 100px;  try with a fixed size */
-  width: auto;       /* scales responsively */
+  width: 100vw;
+  max-width: none;
+  margin: 0 auto;
   height: auto;
 }
 

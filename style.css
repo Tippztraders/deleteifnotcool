@@ -123,6 +123,7 @@ body {
 #descricao {
   text-align: justify;
   margin-bottom: 2em;
+  font-size: 4em;    /* font-size: 1.1em;  now 4em to see */
 }
 
 .info-card {

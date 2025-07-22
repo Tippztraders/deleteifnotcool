@@ -119,7 +119,14 @@ body {
   margin-right: 8px;
 }
 
-/* FORMATTING OF THE WHOLE SECTION */
+/* THIS CONTROLS ONLY DESCRICAO DO EDIFICIO */
+#descricao h2 {
+  font-size: 2em;  /* Try values like 1.5em, 2em, etc. */
+  text-align: center;  /* Optional: center the heading */
+  margin-bottom: 0.5em;
+}
+
+/* FORMATTING FOR THE WHOLE SECTION BELOW DESCRICAO DO EDIFICIO */
 #descricao {
   text-align: justify;
   margin-bottom: 2em;

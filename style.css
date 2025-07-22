@@ -201,6 +201,22 @@ section p {
   height: auto;
 }
 
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #007bff; /* or white, depending on your background */
+}
+
 /* Gallery swiper */
 .gallery-swiper {
   width: 100%;

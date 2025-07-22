@@ -129,5 +129,38 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  // Gallery swiper init
+  if (document.querySelector('.gallery-swiper')) {
+    new Swiper('.gallery-swiper', {
+      loop: true,
+      spaceBetween: 20,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  }
+
+  // Video swiper init (if you have it)
+  if (document.querySelector('.video-swiper')) {
+    new Swiper('.video-swiper', {
+      loop: true,
+      spaceBetween: 20,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  }
+});
 
 

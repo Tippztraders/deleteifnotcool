@@ -78,6 +78,19 @@ function closeGallery() {
   document.getElementById('fullscreenGallery').style.display = 'none';
 }
 
+new Swiper('.gallery-swiper', {
+  loop: true,
+  spaceBetween: 20,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+});
+
 // Video Gallery 
 const videoList = ['FGVIDS1.mp4', 'FGVIDS1.mp4'];
 const videoContainer = document.getElementById('videos');

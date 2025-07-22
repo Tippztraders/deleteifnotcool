@@ -143,7 +143,8 @@ body {
 .inline-icon {
   width: 30px;
   height: auto;
-  margin-top: 3px;
+  vertical-align: middle;
+  margin-top: 3px;  /* or margin-right: 8px; */
 }
 
 /* THIS CONTROLS LOCALIZACAO DO EDIFICIO */

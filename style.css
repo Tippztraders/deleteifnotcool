@@ -183,21 +183,9 @@ section p {
 .after-location-image {
   display: block;
   width: 100%;         /* width: 100vw;  */
-  max-width: 960px;    /* max-width: none;  */
+  max-width: 1250px;    /* max-width: none;  */
   margin: 1em auto;   /* margin: 0 auto; */
   height: auto;
-}
-
-/* Resumo */
-.highlight-points {
-  text-align: center;   /* text-align: left; */
-  padding: 1em;
-  line-height: 1.8; /* Adds nice spacing between lines */
-  font-size: 1em;
-  color: #333;
-}
-.highlight-points p {
-  margin: 0.5em 0; /* Adds space between paragraphs */
 }
 
 /* PRICE */
@@ -237,6 +225,18 @@ section p {
   padding: 0.5em;
   margin: 0.5em 0;
   border-radius: 6px;
+}
+
+/* Resumo */
+.highlight-points {
+  text-align: center;   /* text-align: left; */
+  padding: 1em;
+  line-height: 1.8; /* Adds nice spacing between lines */
+  font-size: 1em;
+  color: #333;
+}
+.highlight-points p {
+  margin: 0.5em 0; /* Adds space between paragraphs */
 }
 
 /* INFORMATION BONUS */

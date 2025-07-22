@@ -78,8 +78,8 @@ function closeGallery() {
   document.getElementById('fullscreenGallery').style.display = 'none';
 }
 
-// Video Gallery — keep this
-const videoList = ['video1.mp4', 'video2.mp4'];
+// Video Gallery 
+const videoList = ['FGVIDS1.mp4', 'FGVIDS1.mp4'];
 const videoContainer = document.getElementById('videos');
 videoList.forEach(src => {
   const slide = document.createElement('div');

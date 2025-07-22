@@ -123,7 +123,7 @@ body {
 #descricao {
   text-align: justify;
   margin-bottom: 2em;
-  font-size: 4em;  /* reduce to 1.2em for normal use */
+  font-size: 2.2em;  /* reduce to 1.2em for normal use */
 }
 
 /* EACH INFO BOX */

@@ -183,7 +183,7 @@ section p {
 .after-location-image {
   display: block;
   width: 100%;         /* width: 100vw;  */
-  max-width: 1250px;    /* max-width: none;  */
+  max-width: 2500px;    /* max-width: none; 1250px;     */
   margin: 1em auto;   /* margin: 0 auto; */
   height: auto;
 }

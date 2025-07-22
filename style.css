@@ -113,21 +113,22 @@ body {
 
 /* THIS CONTROLS THE VECTORS */
 .inline-icon {
-  width: 30px;  /* 20px was also good, 30 didn't change different from 20, 60px looks good */
+  width: 30px;
   height: auto;
   vertical-align: middle;
   margin-right: 8px;
 }
 
-/* THIS CONTROLS THE FORMATTING OF DESCRICAO DESIGN */
+/* FORMATTING OF THE WHOLE SECTION */
 #descricao {
   text-align: justify;
   margin-bottom: 2em;
-  font-size: 4em;    /* font-size: 1.1em;  now 4em to see */
+  font-size: 4em;  /* reduce to 1.2em for normal use */
 }
 
+/* EACH INFO BOX */
 .info-card {
-  background: linear-gradient(to right, #ccebff, #99d6ff); /* soft light-to-medium blue */
+  background: linear-gradient(to right, #ccebff, #99d6ff);
   border-left: 5px solid #99ccff;
   padding: 1em;
   margin: 1em auto;
@@ -139,13 +140,6 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-}
-
-.inline-icon {
-  width: 30px;
-  height: auto;
-  vertical-align: middle;
-  margin-top: 3px;  /* or margin-right: 8px; */
 }
 
 /* THIS CONTROLS LOCALIZACAO DO EDIFICIO */

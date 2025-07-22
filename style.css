@@ -158,6 +158,27 @@ section p {
   text-align: left;  /* Cnanged it myself for vectors to align left */
 }
 
+/* CONTROL ALL TEXT AND BOX FOR LOCATION */
+#localizacao h2 {
+  text-align: center;
+}
+
+.location-highlight {
+  background: linear-gradient(to right, #d4fcd4, #a0e6a0);
+  padding: 12px 18px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #8ccf8c;
+  border-radius: 0;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#localizacao p:not(.location-highlight) {
+  text-align: center;
+}
+
 /* THIS CONTROLS GPS PIC */
  .after-location-image {
   display: block;

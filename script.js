@@ -113,3 +113,21 @@ new Swiper('.video-swiper', {
   spaceBetween: 20,
   loop: true,
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  new Swiper('.gallery-swiper', {
+    loop: true,
+    spaceBetween: 20,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+});
+
+
+

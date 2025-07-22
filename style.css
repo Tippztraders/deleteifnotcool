@@ -7,17 +7,20 @@ body {
 }
 
 .site-container {
-  max-width: 720px;
+  max-width: 960px;  /* was max-width: 720px; */
   margin: 0 auto;
-  padding: 0 1em;
-  text-align: center;
+  padding: 0 15px;    /* was padding: 0 1em; */
+  /* text-align: center; commented out */
 }
 
 .hero {
   background: #fff8dc; /* soft yellow */
   text-align: center;
-  padding: 2em 1em;
+  padding: 0;    /* was padding: 2em 1em; */
   color: #333;
+  width: 100vw;   /* New */
+  height: 40vh; /* or 300px or whatever  New */
+  margin: 0; /* remove vertical margins   New */
 }
 
 .hero-logo {
@@ -84,7 +87,17 @@ body {
   background-color: #e0e0e0;
 }
 
-/* Handbuild background */
+/* Mobile: remove side padding and full width */
+@media (max-width: 768px) {
+  .site-container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Handbuild background */
 .after-hero-image {
   display: block;
   max-width: 100%;
@@ -183,7 +196,7 @@ section p {
 .after-location-image {
   display: block;
   width: 100%;         /* width: 100vw;  */
-  max-width: 200px;    /* max-width: none; 1250px;     */
+  max-width: 960px;    /* max-width: none; 1250px;     */
   margin: 1em auto;   /* margin: 0 auto; */
   height: auto;
 }

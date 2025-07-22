@@ -89,11 +89,13 @@
      <img src="GPS.png" alt="GPS" class="after-location-image">
        
        <!-- SECTION: GALERIA -->
-    <section>
-      <h2><u>Galeria de Imagens</u></h2>
-      <div class="swiper gallery-swiper">
-        <div class="swiper-wrapper" id="gallery">
-          <div class="swiper-slide"><img src="FG1.jpg" alt="FG1"></div>
+<section>
+  <h2><u>Galeria de Imagens</u></h2>
+
+  <!-- Gallery swiper placeholder -->
+  <div class="swiper gallery-swiper">
+    <div class="swiper-wrapper" id="gallery">
+      <div class="swiper-slide"><img src="FG1.jpg" alt="FG1"></div>
            <div class="swiper-slide"><img src="FG2.jpg" alt="FG2"></div>
            <div class="swiper-slide"><img src="FG3.jpg" alt="FG3"></div>
            <div class="swiper-slide"><img src="FG4.jpg" alt="FG4"></div>
@@ -106,11 +108,31 @@
            <div class="swiper-slide"><img src="FG11.jpg" alt="FG11"></div>
            <div class="swiper-slide"><img src="FG12.jpg" alt="FG12"></div>           
            <div class="swiper-slide"><img src="FG14.jpg" alt="FG14"></div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
+         </div>
 
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- Navigation arrows -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+<!-- Fullscreen gallery -->
+<div class="fullscreen-gallery" id="fullscreenGallery" style="display:none;">
+  <div class="swiper gallery-swiper-fullscreen">
+    <div class="swiper-wrapper" id="fullscreenGalleryWrapper">
+      <!-- Slides will be added dynamically -->
+    </div>
+
+    <!-- Pagination for fullscreen -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <button class="close-gallery-btn" onclick="closeGallery()">Tap here to close</button>
+</div>
+    
     <!-- SECTION: VÍDEOS -->
     <section>
       <h2>Vídeos do Imóvel</h2>

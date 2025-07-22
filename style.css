@@ -121,7 +121,7 @@ body {
 
 /* THIS CONTROLS THE FORMATTING OF DESCRICAO DESIGN */
 #descricao {
-  text-align: center;
+  text-align: justify;
   margin-bottom: 2em;
 }
 

@@ -227,6 +227,7 @@ section p {
   object-position: center bottom;
   border-radius: 10px;
   cursor: pointer;
+  border: 5px solid red;
 }
 
 .price-section strong {

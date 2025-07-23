@@ -188,17 +188,6 @@ section p {
   height: auto;
 }
 
-/* PRICE */
-.price-section {
-  text-align: center;
-  padding: 2em 1em;
-  max-width: 720px;
-  margin: 0 auto;
-  font-size: 1em;
-  color: #333;
-  line-height: 1.6;
-}
-
 /* Fullscreen gallery images - vertically centered */
 .fullscreen-gallery {
   height: 100vh;
@@ -230,6 +219,17 @@ section p {
   display: block; 
 }
 
+/* PRICE */
+.price-section {
+  text-align: center;
+  padding: 2em 1em;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+}
+
 .price-section strong {
   font-weight: bold;
 }
@@ -241,7 +241,7 @@ section p {
 
 /* THIS CONTROLS THE BACKGROUND IMAGE OF THE PRICE SECTION */
 .price-section {
-  background-image: url('pricebackgrd.jpg');
+  /* background-image: url('pricebackgrd.jpg');  I just commented it out  */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

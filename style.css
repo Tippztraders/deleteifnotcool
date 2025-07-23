@@ -291,15 +291,38 @@ section {
 
 
 /* Resumo */
-.highlight-points {
-  text-align: center;   /* text-align: left; */
+.highlight-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
   padding: 1em;
-  line-height: 1.8; /* Adds nice spacing between lines */
-  font-size: 1em;
-  color: #22f213;    /* #333 */
 }
-.highlight-points p {
-  margin: 0.5em 0; /* Adds space between paragraphs */
+
+.highlight-card {
+  background: #f0fdf4;
+  border: 2px solid #22f213;
+  border-radius: 10px;
+  padding: 1em;
+  width: 160px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.highlight-card:hover {
+  transform: scale(1.05);
+}
+
+.highlight-card .emoji {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.highlight-card p {
+  font-size: 0.95em;
+  margin: 0;
+  color: #333;
 }
 
 /* INFORMATION BONUS */

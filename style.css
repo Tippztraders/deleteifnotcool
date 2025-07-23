@@ -396,7 +396,7 @@ footer {
   background-repeat: no-repeat;
   color: white; /* Helps text contrast against image */
   padding: 2em 1em;
-  font-size: 20px; /* You can set this to 60px if you want it very large */
+  font-size: 60px; /* You can set this to 60px if you want it very large */
   background-size: 100% 150px; /* full width, 150px tall */
 
 .swiper-slide img, .swiper-slide video {

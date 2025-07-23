@@ -1,11 +1,10 @@
 // Image Gallery
-const galleryImages = ['image1.jpg', 'image2.jpg', 'image3.jpg'];
-const gallery = document.getElementById('gallery');
-galleryImages.forEach(src => {
-  const slide = document.createElement('div');
-  slide.className = 'swiper-slide';
-  slide.innerHTML = `<img src="${src}" alt="">`;
-  gallery.appendChild(slide);
+const gallerySwiper = new Swiper('.gallery-swiper', {
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
 });
 
 // Video Gallery

@@ -211,7 +211,7 @@ section p {
 .fullscreen-gallery .swiper-slide {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .fullscreen-gallery img {

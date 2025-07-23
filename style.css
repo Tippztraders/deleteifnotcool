@@ -246,43 +246,49 @@ section {
 }
 
 /* PRICE */
-.price-section {
+.inline-icon {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* PREÇO SECTION TITLE */
+#preco h2 {
+  font-size: 2em;
   text-align: center;
-  padding: 2em 1em;
+  margin-bottom: 0.5em;
+}
+
+/* PREÇO SECTION CONTAINER */
+#preco {
+  text-align: justify;
+  margin-bottom: 2em;
+  font-size: 1.2em;
+}
+
+/* SHARED INFO CARD STYLE */
+.info-card {
+  background: linear-gradient(to right, #ccebff, #99d6ff);
+  border-left: 5px solid #f21313;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 10px;
   max-width: 720px;
-  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: left;
   font-size: 1em;
-  color: #333;
-  line-height: 1.6;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
 }
 
-.price-section strong {
-  font-weight: bold;
+/* ➕ Make Preço Atual stand out */
+#preco .info-card strong {
+  font-size: 1.4em;
+  color: #004d00; /* Optional: dark green */
 }
 
-.price-section em {
-  font-style: italic;
-  color: #666;
-}
-
-/* THIS CONTROLS THE BACKGROUND IMAGE OF THE PRICE SECTION */
-.price-section {
-  /* background-image: url('pricebackgrd.jpg');  I just commented it out (it worked)  */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 2em 1em;
-  text-align: center;  
-  color: black;
-  border-radius: 12px;
-}
-.price-section h2,
-.price-section p {
-   /* background-color: rgba(0, 0, 0, 0.5); /* optional: semi-transparent overlay */
-  padding: 0.5em;
-  margin: 0.5em 0;
-  border-radius: 6px;
-}
 
 /* Resumo */
 .highlight-points {

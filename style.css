@@ -200,25 +200,33 @@ section p {
 }
 
 /* Fullscreen gallery images - vertically centered */
-.fullscreen-gallery .swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-
-.fullscreen-gallery img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
-  max-height: 90vh;
-}
-
 .fullscreen-gallery {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: black; /* optional for fullscreen background */
+  background: black; /* fullscreen background */
+}
+
+.fullscreen-gallery .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen-gallery img {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.gallery-swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .price-section strong {

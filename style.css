@@ -206,7 +206,6 @@ section p {
   align-items: center;
 }
 
-/* Make images on the gallery sit at the bottom? */
 .fullscreen-gallery img {
   max-height: 100%;
   max-width: 100%;

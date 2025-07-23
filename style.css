@@ -229,7 +229,7 @@ section {
   padding: 2em 1em;
   border-radius: 12px;
   margin-bottom: 2em;
-  color: black; /* optional: to help text contrast */
+  color: black; /* This controls the titles and colour of the texts of descricao */
   overflow: hidden;
 }
 

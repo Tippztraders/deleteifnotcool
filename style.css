@@ -226,8 +226,8 @@ section p {
   object-fit: cover;
   object-position: center bottom;
   border-radius: 10px;
-  cursor: pointer;
   border: 5px solid red;
+  display: block; 
 }
 
 .price-section strong {

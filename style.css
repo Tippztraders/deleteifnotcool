@@ -326,14 +326,16 @@ section {
 }
 
 /* INFORMATION BONUS */
-.bonus-info {
-  text-align: center;
-  padding: 2em 1em;
-  max-width: 720px;
-  margin: 0 auto;
-  font-size: 1em;
-  color: #333;
-  line-height: 1.7;
+.bonus-link {
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic; 
+}
+
+.bonus-link:hover {
+  color: #004499;
+  text-decoration: none;
 }
 
 /* DISCLAIMER */

@@ -199,6 +199,20 @@ section p {
   line-height: 1.6;
 }
 
+/* Fullscreen gallery images - vertically centered */
+.fullscreen-gallery .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Make images on the gallery sit at the bottom? */
+.fullscreen-gallery img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .price-section strong {
   font-weight: bold;
 }

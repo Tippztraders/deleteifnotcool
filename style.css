@@ -219,6 +219,41 @@ section p {
   display: block; 
 }
 
+/* Video Gallery Section Background */
+section {
+  position: relative;
+  background-image: url('your-background-image.jpg'); /* replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2em 1em;
+  border-radius: 12px;
+  margin-bottom: 2em;
+  color: white; /* optional: to help text contrast */
+  overflow: hidden;
+}
+
+/* Optional: Overlay for darker background if needed */
+section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* adjust opacity as needed */
+  z-index: 1;
+}
+
+/* Make sure swiper and content are above overlay */
+.swiper, section > h2 {
+  position: relative;
+  z-index: 2;
+}
+
+/* Swiper height to ensure proper spacing */
+.video-swiper {
+  height: 300px; /* or your preferred height */
+  margin-top: 1em;
+}
+
 /* PRICE */
 .price-section {
   text-align: center;

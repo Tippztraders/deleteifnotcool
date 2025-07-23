@@ -339,23 +339,16 @@ section {
 }
 
 /* DISCLAIMER */
-#aviso-legal {
-  margin: 2em auto;
-  max-width: 800px;
-  padding: 0 1em;
-  text-align: center;
+.bonus-link {
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
 }
 
-#aviso-legal h2 {
-  font-size: 2.2em;           /* Adjust heading size */
-  font-weight: bold;
-  color: #004466;             /* Dark blue color */
-  margin-bottom: 0.5em;
-  text-decoration: underline;
-  text-underline-offset: 6px; /* Space between text and underline */
-  text-decoration-thickness: 3px; /* Thickness of underline */
-  text-decoration-color: #3399ff; /* Underline color */
-  font-family: 'Arial', sans-serif;
+.bonus-link:hover {
+  color: #004499;
+  text-decoration: none;
 }
 
 /* LINKS UTIEIS */

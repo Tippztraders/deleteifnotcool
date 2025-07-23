@@ -204,13 +204,21 @@ section p {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  }
 
 .fullscreen-gallery img {
   max-height: 100%;
   max-width: 100%;
   object-fit: contain;
   max-height: 90vh;
+}
+
+.fullscreen-gallery {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black; /* optional for fullscreen background */
 }
 
 .price-section strong {

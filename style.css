@@ -391,7 +391,7 @@ section {
 /* THIS CODE CONTROLS THE BACKGROUND IMAGE FOR THE FOOTER */
 footer {
   background-image: url('footerbg.jpg');
-  background-size: cover;
+  background-size: contain;  /* cover = "Fill the box completely, crop if necessary."contain = "Show the whole image, even if it doesn't fill the box." */
   background-position: center;
   background-repeat: no-repeat;
   color: white; /* Helps text contrast against image */

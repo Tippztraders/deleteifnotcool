@@ -155,7 +155,7 @@ section p {
   line-height: 1.6;
   color: #333;
   margin-bottom: 1em;
-  text-align: left;  /* Cnanged it myself for vectors to align left */
+  text-align: left;  /* Changed it myself for vectors to align left */
 }
 
 /* CONTROL ALL TEXT AND BOX FOR LOCATION */
@@ -229,7 +229,7 @@ section {
   padding: 2em 1em;
   border-radius: 12px;
   margin-bottom: 2em;
-  color: white; /* optional: to help text contrast */
+  color: black; /* optional: to help text contrast */
   overflow: hidden;
 }
 

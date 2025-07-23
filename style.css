@@ -296,7 +296,7 @@ section {
   padding: 1em;
   line-height: 1.8; /* Adds nice spacing between lines */
   font-size: 1em;
-  color: #333;
+  color: green;    /* #333 */
 }
 .highlight-points p {
   margin: 0.5em 0; /* Adds space between paragraphs */

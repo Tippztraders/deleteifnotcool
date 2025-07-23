@@ -7,20 +7,17 @@ body {
 }
 
 .site-container {
-  max-width: 960px;  /* was max-width: 720px; */
+  max-width: 720px;
   margin: 0 auto;
-  padding: 0 15px;    /* was padding: 0 1em; */
-  /* text-align: center; commented out */
+  padding: 0 1em;
+  text-align: center;
 }
 
 .hero {
   background: #fff8dc; /* soft yellow */
   text-align: center;
-  padding: 0;    /* was padding: 2em 1em; */
+  padding: 2em 1em;
   color: #333;
-  width: 100vw;   /* New */
-  height: 40vh; /* or 300px or whatever  New */
-  margin: 0; /* remove vertical margins   New */
 }
 
 .hero-logo {
@@ -87,17 +84,7 @@ body {
   background-color: #e0e0e0;
 }
 
-/* Mobile: remove side padding and full width */
-@media (max-width: 768px) {
-  .site-container {
-    max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  /* Handbuild background */
+/* Handbuild background */
 .after-hero-image {
   display: block;
   max-width: 100%;
@@ -196,99 +183,9 @@ section p {
 .after-location-image {
   display: block;
   width: 100%;         /* width: 100vw;  */
-  max-width: 960px;    /* max-width: none; 1250px;     */
+  max-width: 200px;    /* max-width: none; 1250px;     */
   margin: 1em auto;   /* margin: 0 auto; */
   height: auto;
-}
-
-.swiper {
-  width: 100%;
-  height: auto;
-}
-
-.swiper-slide img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  color: #007bff; /* or white, depending on your background */
-}
-
-/* Gallery swiper */
-.gallery-swiper {
-  width: 100%;
-  max-width: 960px;
-  height: 300px;
-  margin: 1em auto;
-  position: relative;
-}
-
-.gallery-swiper .swiper-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  cursor: pointer;
-  border-radius: 10px;
-}
-
-/* Fullscreen gallery styling */
-.fullscreen-gallery {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: #000;
-  z-index: 9999;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  padding-bottom: 4em;
-}
-
-.gallery-swiper-fullscreen {
-  width: 100vw;
-  height: 80vh;
-}
-
-.gallery-swiper-fullscreen .swiper-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 0;
-}
-
-/* Close button */
-.close-gallery-btn {
-  background-color: #007BFF;
-  color: white;
-  font-size: 1.2em;
-  padding: 0.7em 2em;
-  border: none;
-  border-radius: 8px;
-  margin-top: 1em;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-/* Swiper navigation arrows */
-.swiper-button-prev,
-.swiper-button-next {
-  color: white;
-  top: 45%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* PRICE */
@@ -425,193 +322,3 @@ footer {
   height: auto;
   border-radius: 6px;
 }
-
-/* GENERAL STYLES */
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 1.5;
-  color: #222;
-  background: #f9faff;
-  margin: 0;
-  padding: 0 15px;
-  box-sizing: border-box;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 1.6rem;
-  margin-bottom: 0.6rem;
-  color: #004a99;
-}
-
-/* Price Section */
-.price-section {
-  max-width: 720px;
-  margin: 2em auto;
-  padding: 1.2em 1.5em;
-  background: linear-gradient(90deg, #d6e9ff, #a4c8ff);
-  border-left: 5px solid #3a80ff;
-  border-radius: 10px;
-  box-shadow: 0 3px 8px rgba(0, 72, 153, 0.1);
-  color: #003366;
-}
-
-.price-section p {
-  margin: 0.5em 0;
-  font-size: 1.1rem;
-}
-
-.price-section strong {
-  font-weight: 800;
-  color: #002e6b;
-}
-
-/* Highlight Points (Resumo) */
-.highlight-points {
-  max-width: 720px;
-  margin: 2em auto;
-  padding: 1em 1.5em;
-  background: #e7f0ff;
-  border-radius: 10px;
-  border-left: 5px solid #0074ff;
-  box-shadow: 0 2px 6px rgba(0, 116, 255, 0.15);
-  font-size: 1.15rem;
-  color: #003366;
-}
-
-.highlight-points p {
-  margin: 0.4em 0;
-  font-weight: 600;
-}
-
-/* Bonus Info Section */
-.bonus-info {
-  max-width: 720px;
-  margin: 2em auto 3em;
-  padding: 1.5em 1.8em;
-  background: #f0f7ff;
-  border-radius: 10px;
-  border-left: 5px solid #339933;
-  box-shadow: 0 3px 8px rgba(51, 153, 51, 0.15);
-  font-size: 1.1rem;
-  color: #2f4f2f;
-  line-height: 1.6;
-}
-
-.bonus-info h2 {
-  color: #2f662f;
-  margin-bottom: 1rem;
-}
-
-/* Aviso Legal Section */
-#aviso-legal {
-  max-width: 720px;
-  margin: 3em auto;
-  text-align: center;
-  font-size: 1.1rem;
-  padding: 1em 0;
-}
-
-#aviso-legal h2 a {
-  color: #0074ff;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-#aviso-legal h2 a:hover {
-  text-decoration: underline;
-}
-
-/* Useful Links Section */
-.links-uteis {
-  max-width: 720px;
-  margin: 3em auto 4em;
-  padding: 1em 1.5em;
-  background: #dff0d8;
-  border-radius: 10px;
-  border-left: 5px solid #3c763d;
-  box-shadow: 0 3px 8px rgba(60, 118, 61, 0.15);
-  color: #3c763d;
-}
-
-.links-uteis h2 {
-  margin-bottom: 1rem;
-  font-weight: 700;
-}
-
-.links-uteis ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.links-uteis li {
-  margin: 0.6em 0;
-  font-size: 1.1rem;
-}
-
-.links-uteis a {
-  color: #2a5d2a;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.links-uteis a:hover,
-.links-uteis a:focus {
-  color: #1b3d1b;
-  text-decoration: underline;
-}
-
-/* Footer */
-footer {
-  max-width: 720px;
-  margin: 0 auto 2em;
-  padding: 1.5em 1.5em;
-  background: #00264d;
-  color: #eee;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 0.9rem;
-  line-height: 1.4;
-}
-
-footer p {
-  margin: 0.3em 0;
-}
-
-footer p.legal {
-  font-size: 0.8rem;
-  font-style: italic;
-  margin-top: 1em;
-  color: #a6a6a6;
-}
-
-/* Links in footer */
-footer a {
-  color: #6ca0dc;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-/* Responsive tweaks */
-@media (max-width: 600px) {
-  body {
-    padding: 0 10px;
-  }
-
-  .price-section,
-  .highlight-points,
-  .bonus-info,
-  .links-uteis,
-  footer {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 1em;
-  }
-}
-
-  

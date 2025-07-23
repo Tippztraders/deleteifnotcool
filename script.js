@@ -9,7 +9,7 @@ galleryImages.forEach(src => {
 });
 
 // Video Gallery
-const videoList = ['video1.mp4', 'video2.mp4'];
+const videoList = ['FGVIDS1.mp4'];
 const videoContainer = document.getElementById('videos');
 videoList.forEach(src => {
   const slide = document.createElement('div');

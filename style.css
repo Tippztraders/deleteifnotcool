@@ -7,7 +7,7 @@ body {
 }
 
 .site-container {
-  max-width: 50px;  /* max-width: 720px; */
+  max-width: 720px;  /* max-width: 720px; 50 the footer text become big & structure slim till hero */
   margin: 0 auto;
   padding: 0 1em;
   text-align: center;
@@ -21,7 +21,7 @@ body {
 }
 
 .hero-logo {
-  width: 90px;  /* ws 60px; now 90 */
+  width: 120px;  /* ws 90px; */
   height: auto;
   margin-bottom: 1em;
 }

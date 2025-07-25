@@ -149,6 +149,21 @@ body {
   gap: 10px;
 }
 
+/* == GALERIA DE IMAGENS == */
+.gallery-placeholder {
+  width: 100%;
+  max-width: 720px;
+  height: 240px; /* 👈 Adjust this as needed */
+  margin: 1em auto;
+  background-color: #e0e0e0;
+  background-image: url('js/src=image/gallery-placeholder.jpg'); /* optional */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
 /* THIS CONTROLS LOCALIZACAO DO EDIFICIO */
 section p {
   font-size: 1.3em;    /* font-size: 1em; */

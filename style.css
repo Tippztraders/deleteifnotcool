@@ -98,18 +98,30 @@ body {
 .image-placeholder1 {
   width: 100%;
   max-width: 400px;
-  height: 15em;
   background-color: blue;
   border: 3px solid black;
-  color: red;
-  aspect-ratio: 4 / 3; /* or 16 / 9, 1 / 1, etc. */
+  color: red;  
   font-size: 1.2rem;
   font-style: italic;
-  border-radius: 10px;
-  display: flex;
+  border-radius: 10px;  
   align-items: center;
-  justify-content: center;
   margin: 20px auto; /* this is space between boxes */
+}
+
+.image-placeholder1 img {
+  max-width: 100%;         /* image never exceeds container */
+  height: auto;            /* maintain aspect ratio */
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-placeholder1 span {
+  display: block;
+  margin-top: 10px;
+  color: red;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 
 /* Image Placeholder 1&2 */

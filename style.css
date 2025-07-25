@@ -94,12 +94,39 @@ body {
 }
 
 /* THIS CONTROLS THE PICS AFTER DESCRICAO DO EDIFICIO */
-.after-description-image {
+/* Image Placeholder 1&2 */
+.image-placeholder1 {
   width: 100%;
-  max-width: 960px;
-  display: block;
-  margin: 1.5em auto;
-  border-radius: 12px;
+  max-width: 400px;
+  height: 15em;
+  background-color: blue;
+  border: 3px solid black;
+  color: red;
+  aspect-ratio: 4 / 3; /* or 16 / 9, 1 / 1, etc. */
+  font-size: 1.2rem;
+  font-style: italic;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto; /* this is space between boxes */
+}
+
+/* Image Placeholder 1&2 */
+.image-placeholder2 {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  background-color: #e6ffe6;
+  border: 3px solid green;
+  color: #2a2;
+  font-size: 1.2rem;
+  font-style: italic;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
 }
 
 /* THIS CONTROLS THE VECTORS */

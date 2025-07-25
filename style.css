@@ -97,7 +97,7 @@ body {
 /* Image Placeholder 1&2 */
 .image-placeholder1 {
   width: 100%;
-  max-width: 400px;
+  max-width: 250px;
   background-color: blue;
   border: 3px solid black;
   color: red;  

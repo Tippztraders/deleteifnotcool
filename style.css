@@ -127,7 +127,7 @@ body {
 /* Image Placeholder 1&2 */
 .image-placeholder2 {
   width: 100%;
-  max-width: 400px;
+  max-width: 250px;
   height: 250px;
   background-color: #e6ffe6;
   border: 3px solid green;

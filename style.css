@@ -7,7 +7,7 @@ body {
 }
 
 .site-container {
-  max-width: 720px;  /* max-width: 720px; 50 the footer text become big & structure slim till hero */
+  max-width: 920px;  /* max-width: 720px; 50 the footer text become big & structure slim till hero */
   margin: 0 auto;
   padding: 0 1em;
   text-align: center;

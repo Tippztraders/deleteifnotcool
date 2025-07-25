@@ -151,7 +151,7 @@ body {
 
 /* == GALERIA DE IMAGENS == */
 .gallery-placeholder {
-  width: 100%;
+  width: 20%;    /* 100%; */
   max-width: 720px;
   height: 120px; /* 👈 Adjust this as needed */
   margin: 1em auto;

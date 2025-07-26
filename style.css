@@ -424,7 +424,7 @@ footer {
   background-size: contain;  /* cover = "Fill the box completely, crop if necessary."contain = "Show the whole image, even if it doesn't fill the box." */
   background-position: center;
   background-repeat: no-repeat;
-  color: white; /* Helps text contrast against image */
+  color: yellow; /* white Helps text contrast against image */
   padding: 2em 1em;
   font-size: 60px; /* You can set this to 60px if you want it very large */
   background-size: 100% 150px; /* full width, 150px tall */

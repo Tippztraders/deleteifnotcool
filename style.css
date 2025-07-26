@@ -118,7 +118,7 @@ body {
 /* CONTROLS THE IMAGE GALLERY PLACEHOLDER */
 /* This controls the dimensions */
 .image-placeholder {
-  width: 100%;
+  width: 200%;    /* 100% */
   max-width: 500px;
   height: 300px;
   margin: 20px auto;

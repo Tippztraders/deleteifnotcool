@@ -423,8 +423,8 @@ section {
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px 15px 15px; /* less vertical padding */
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 20px;   /* 14px */
+  line-height: 2;  /* 1.6 */
 }
 
 .footer-container {

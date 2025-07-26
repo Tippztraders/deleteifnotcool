@@ -93,54 +93,6 @@ body {
   position: center;
 }
 
-/* THIS CONTROLS THE PICS AFTER DESCRICAO DO EDIFICIO */
-/* Image Placeholder 1&2 */
-.image-placeholder1 {
-  width: 30%;  /* 100% */
-  max-width: 250px;
-  background-color: blue;
-  border: 3px solid black;
-  color: red;  
-  font-size: 1.2rem;
-  font-style: italic;
-  border-radius: 10px;  
-  align-items: center;
-  margin: 20px auto; /* this is space between boxes */
-}
-
-.image-placeholder1 img {
-  max-width: 100%;         /* image never exceeds container */
-  height: auto;            /* maintain aspect ratio */
-  border-radius: 6px;
-  display: block;
-  margin: 0 auto;
-}
-
-.image-placeholder1 span {
-  display: block;
-  margin-top: 10px;
-  color: red;
-  font-size: 1.2rem;
-  font-style: italic;
-}
-
-/* Image Placeholder 1&2 */
-.image-placeholder2 {
-  width: 100%;
-  max-width: 250px;
-  height: 250px;
-  background-color: #e6ffe6;
-  border: 3px solid green;
-  color: #2a2;
-  font-size: 1.2rem;
-  font-style: italic;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px auto;
-}
-
 /* THIS CONTROLS THE VECTORS */
 .inline-icon {
   width: 30px;
@@ -178,6 +130,32 @@ body {
   align-items: flex-start;
   gap: 10px;
 }
+
+/* THIS CONTROLS THE PICS AFTER DESCRICAO DO EDIFICIO */
+.image-placeholder1,
+.image-placeholder2 {
+  max-width: 100%;
+  width: 90%;             /* Resizing: makes them responsive and smaller */
+  margin: 20px auto;      /* Centering horizontally */
+  text-align: center;     /* Centers the caption text inside */
+}
+
+.image-placeholder1 img,
+.image-placeholder2 img {
+  width: 100%;            /* Image fills the placeholder */
+  height: auto;           /* Keeps aspect ratio */
+  display: block;         /* Removes bottom space */
+  margin: 0 auto;         /* Centers image if it’s smaller than the container */
+}
+
+.image-placeholder1 span,
+.image-placeholder2 span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
 
 /* THIS CONTROLS LOCALIZACAO DO EDIFICIO */
 section p {

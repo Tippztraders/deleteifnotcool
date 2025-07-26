@@ -1,101 +1,421 @@
-/* Ensure .site-container is fluid and centered */
-.site-container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 15px;
-  box-sizing: border-box;
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f6faff;
+  color: #222;
+  padding: 0;
 }
 
-/* Make images and videos fluid and max width 100% */
-img, video {
+.site-container {
+  max-width: 920px;  /* max-width: 720px; 50 the footer text become big & structure slim till hero */
+  margin: 0 auto;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.hero {
+  background: #fff8dc; /* soft yellow */
+  text-align: center;
+  padding: 2em 1em;
+  color: #333;
+}
+
+.hero-logo {
+  width: 120px;  /* ws 90px; */
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.headline {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0.2em 0;
+}
+
+.address-line {
+  font-size: 1em;
+  margin: 0;
+}
+
+.city {
+  font-size: 1.5em;   /* was 0.9 now 1.5 */
+  color: #000000;
+  margin-bottom: 0.5em;
+}
+
+/* OPORTUNIDADE... */
+.tagline {
+  font-size: 1em;
+  font-style: italic;
+  color: #444;
+  margin-top: 0.5em;
+}
+
+/* Section Nav Menu */
+.section-nav {
+  background-color: #004080; /* same as your theme blue */
+  padding: 1em;
+  overflow-x: auto;
+}
+
+.section-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.section-nav a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #fff;
+  color: #004080;
+  text-decoration: none;
+  font-size: 0.9em;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: background 0.3s;
+}
+
+.section-nav a:hover {
+  background-color: #e0e0e0;
+}
+
+/* Handbuild background */
+.after-hero-image {
+  display: block;
   max-width: 100%;
   height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1em auto;
+  position: center;
 }
 
-/* For side-by-side images placeholders, stack on mobile */
+/* THIS CONTROLS THE VECTORS */
+.inline-icon {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* THIS CONTROLS ONLY DESCRICAO DO EDIFICIO */
+#descricao h2 {
+  font-size: 2em;  /* Try values like 1.5em, 2em, etc. */
+  text-align: center;  /* Optional: center the heading */
+  margin-bottom: 0.5em;
+}
+
+/* FORMATTING FOR THE WHOLE SECTION BELOW DESCRICAO DO EDIFICIO */
+#descricao {
+  text-align: justify;
+  margin-bottom: 2em;
+  font-size: 1.2em;  /* reduce to 1.2em for normal use */
+}
+
+/* CONTROLS THE IMAGE GALLERY PLACEHOLDER */
+/* This controls the dimensions */
+.image-placeholder {
+  width: 500%;    /* 100% */
+  max-width: 500px;
+  height: 300px;
+  margin: 10px auto;   20px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 4px solid red;
+  display: block;
+}
+
+.image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.image-placeholder span {
+  display: block;
+  padding-top: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* CONTROLS THE VIDEO GALLERY PLACEHOLDER */
+.video-placeholder {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 4px solid red;
+}
+
+.video-placeholder video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+.video-placeholder span {
+  display: block;
+  padding-top: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
+
+/* EACH INFO BOX */
+.info-card {
+  background: linear-gradient(to right, #ccebff, #99d6ff);
+  border-left: 5px solid #99ccff;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 10px;
+  max-width: 720px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: left;
+  font-size: 1em;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* THIS CONTROLS THE PICS AFTER DESCRICAO DO EDIFICIO */
 .image-placeholder1,
 .image-placeholder2 {
-  width: 48%;  /* For desktop/tablet */
-  display: inline-block;
-  vertical-align: top;
-  box-sizing: border-box;
-  margin-bottom: 15px;
-}
-
-/* On small screens stack images vertically */
-@media (max-width: 600px) {
-  .image-placeholder1,
-  .image-placeholder2 {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  /* Adjust nav menu to be more mobile friendly */
-  .section-nav ul {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-  }
-  .section-nav ul li {
-    margin-bottom: 12px;
-  }
-
-  /* Smaller font sizes on mobile */
-  body {
-    font-size: 14px;
-  }
-
-  /* Reduce padding on hero */
-  .hero-content {
-    padding: 10px 15px;
-  }
-
-  /* Resize header text */
-  .hero .headline {
-    font-size: 1.8rem;
-  }
-  
-  /* Make your resumen cards full width */
-  .highlight-grid {
-    display: block;
-  }
-  
-  .highlight-card {
-    margin-bottom: 15px;
-    width: 100%;
-  }
-}
-
-/* Medium screens - tablets */
-@media (min-width: 601px) and (max-width: 960px) {
-  .image-placeholder1,
-  .image-placeholder2 {
-    width: 48%;
-  }
-  
-  .highlight-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .highlight-card {
-    width: 48%;
-    margin-bottom: 20px;
-  }
-}
-
-/* Center video container */
-.video-placeholder video {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
   max-width: 100%;
+  width: 90%;             /* Resizing: makes them responsive and smaller */
+  margin: 20px auto;      /* Centering horizontally */
+  text-align: center;     /* Centers the caption text inside */
+}
+
+.image-placeholder1 img,
+.image-placeholder2 img {
+  width: 100%;            /* Image fills the placeholder */
+  height: auto;           /* Keeps aspect ratio */
+  display: block;         /* Removes bottom space */
+  margin: 0 auto;         /* Centers image if it’s smaller than the container */
+}
+
+.image-placeholder1 span,
+.image-placeholder2 span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+/* THIS CONTROLS LOCALIZACAO DO EDIFICIO */
+section p {
+  font-size: 1.3em;    /* font-size: 1em; */
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1em;
+  text-align: left;  /* Changed it myself for vectors to align left */
+}
+
+/* CONTROL ALL TEXT AND BOX FOR LOCATION */
+#localizacao h2 {
+  text-align: center;
+}
+
+.location-highlight {
+  background: linear-gradient(to right, #d4fcd4, #a0e6a0);
+  padding: 12px 18px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #8ccf8c;
+  border-radius: 0;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#localizacao p:not(.location-highlight) {
+  text-align: center;
+}
+
+/* THIS CONTROLS GPS PIC */
+.after-location-image {
+  display: block;
+  width: 50%;         /* width: 100vw;  */
+  max-width: 100px;    /* max-width: none; 1250px;     */
+  margin: 1em auto;   /* margin: 0 auto; */
   height: auto;
+}
+
+/* Fullscreen gallery images - vertically centered */
+.fullscreen-gallery {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black; /* fullscreen background */
+}
+
+.fullscreen-gallery .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.fullscreen-gallery img {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.gallery-swiper .swiper-slide img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  object-position: center bottom;
+  border-radius: 10px;
+  border: 5px solid red;
+  display: block; 
+}
+
+/* Video Gallery Section Background */
+section {
+  position: relative;
+  background-image: url('your-background-image.jpg'); /* replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1.5em 1em;
+  border-radius: 12px;
+  margin-bottom: 2em;
+  color: black; /* This controls the titles and colour of the texts of descricao */
+  overflow: hidden;
+}
+
+/* Make sure swiper and content are above overlay */
+.swiper, section > h2 {
+  position: relative;
+  z-index: 2;
+}
+
+/* Swiper height to ensure proper spacing */
+.video-swiper {
+  height: 75px; /* or your preferred height */
+  margin-top: 1em;
+}
+
+/* PRICE */
+.inline-icon {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* PREÇO SECTION TITLE */
+#preco h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+/* PREÇO SECTION CONTAINER */
+#preco {
+  text-align: justify;
+  margin-bottom: 2em;
+  font-size: 1.2em;
+}
+
+/* SHARED INFO CARD STYLE */
+.info-card {
+  background: linear-gradient(to right, #ccebff, #99d6ff);
+  border-left: 5px solid #f21313;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 10px;
+  max-width: 720px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  font-size: 1em;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* ➕ Make Preço Atual stand out */
+#preco .info-card strong {
+  font-size: 1.4em;
+  color: #004d00; /* Optional: dark green */
+}
+
+
+/* Resumo */
+.highlight-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+
+.highlight-card {
+  background: #f0fdf4;
+  border: 2px solid #22f213;
+  border-radius: 10px;
+  padding: 1em;
+  width: 160px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.highlight-card:hover {
+  transform: scale(1.05);
+}
+
+.highlight-card .emoji {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.highlight-card p {
+  font-size: 0.95em;
+  margin: 0;
+  color: #333;
+}
+
+/* INFORMATION BONUS */
+.bonus-link {
+  color: #fc5432;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic; 
+}
+
+.bonus-link:hover {
+  color: #004499;
+  text-decoration: none;
+}
+
+/* DISCLAIMER */
+.bonus-link {
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.bonus-link:hover {
+  color: #004499;
+  text-decoration: none;
 }
 
 /* THIS CODE CONTROLS THE BACKGROUND IMAGE FOR THE FOOTER */
@@ -136,6 +456,61 @@ img, video {
     list-style: none;
   }
 }
-
 /* END OF FOOTER */
+
+/* ===== RESPONSIVE MOBILE STYLES ===== */
+@media (max-width: 768px) {
+  .headline {
+    font-size: 1.4em;
+  }
+
+  .city {
+    font-size: 1.2em;
+  }
+
+  .section-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-placeholder,
+  .video-placeholder,
+  .image-placeholder1,
+  .image-placeholder2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .info-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  section p {
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .highlight-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .highlight-card {
+    width: 80%;
+  }
+
+  .after-location-image {
+    width: 90%;
+    max-width: none;
+  }
+
+  .section-nav a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
  

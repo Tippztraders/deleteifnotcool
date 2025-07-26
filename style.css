@@ -115,8 +115,6 @@ body {
   font-size: 1.2em;  /* reduce to 1.2em for normal use */
 }
 
-
-
 /* CONTROLS THE IMAGE GALLERY PLACEHOLDER /
 
 /* This controls the dimensions */
@@ -143,7 +141,7 @@ body {
   display: block;
   padding-top: 8px;
   font-size: 14px;
-  color: #444;
+  color: green;
 }
 
 /* EACH INFO BOX */

@@ -96,7 +96,7 @@ body {
 /* THIS CONTROLS THE PICS AFTER DESCRICAO DO EDIFICIO */
 /* Image Placeholder 1&2 */
 .image-placeholder1 {
-  width: 100%;
+  width: 30%;  /* 100% */
   max-width: 250px;
   background-color: blue;
   border: 3px solid black;
